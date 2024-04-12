@@ -1,7 +1,11 @@
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
+import CardGroup from "./components/Cards/CardGroup";
+// import Card from "./components/Cards/Card";
+// import Verticalcard from "./components/Cards/Verticalcard";
 // import Card from "./components/Card/Card1";
-import Image from "./components/Image/Image1";
+// import Image from "./components/Image/Image1";
+// import Border from "./components/Border/Border";
 
 // import Navbar from "./components/Nav/Navbar";
 // import Filters from "./components/Akshay/Filters";
@@ -54,8 +58,12 @@ function App() {
         {/* <Flex /> */}
         {/* <Nav /> */}
         {/* <Navbar /> */}
-        <Image />
+        {/* <Image /> */}
         {/* <Card /> */}
+        {/* <Border /> */}
+        {/* <Card /> */}
+        {/* <Verticalcard /> */}
+        <CardGroup />
       </BrowserRouter>
     </div>
   );
