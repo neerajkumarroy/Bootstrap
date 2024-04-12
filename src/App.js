@@ -1,6 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-import Modal from "./components/Modal/Modal";
+import Media from "./components/Media/men";
+// import Modal from "./components/Modal/Modal";
 // import CardGroup from "./components/Cards/CardGroup";
 // import Card from "./components/Cards/Card";
 // import Verticalcard from "./components/Cards/Verticalcard";
@@ -65,7 +66,8 @@ function App() {
         {/* <Card /> */}
         {/* <Verticalcard /> */}
         {/* <CardGroup /> */}
-        <Modal />
+        {/* <Modal /> */}
+        <Media />
       </BrowserRouter>
     </div>
   );

@@ -9,27 +9,31 @@ const Modal = () => {
         {/* ////-----Button--------///// */}
         <div className='col-md-3'>
           <button className='btn btn-primary' data-bs-toggle='modal' data-bs-target="#myModal">Launch Modal</button>
-          <div className='modal' id='myModal'>
-            <div className='modal-dialog'>
+          <div className='modal fade ta' id='myModal' tabindex="-1"  >
+            {/* /////----modal-dialog-centered, modal-dialog-scrollable,  data-bs-backdrop ='static' , tabindex="-1"*/}
+          <div className='modal-dialog modal-lg'>
               <div className='modal-content'>   
-              <div className='modal-footer'>
-                <h5 className='modal-title'>Modal Title</h5>
-                <button className='close' data-bs-dismiss='modal'>
-                    <span>&times;</span>
-                </button>
+                <div className='modal-header'>
+                  <h5 className='modal-title text-start'>Modal Title</h5>
+                  <button className='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
+                </div>
+                <div className='modal-body'>
+                 <div className='container-fluid'>
+                    <div className='row'>
+                        <div className='col-md-6'>col 1</div>
+                        <div className='col-md-6'>Col 2</div>
+                    </div>
+                    <div className='row'>
+                        <div className='col-md-4'> Clo 3</div>
+                        <div className='col-md-8' > Col 4</div>
+                    </div>
+                 </div>
+                </div>
+                <div className='modal-footer'>
+                  <button className="btn btn-danger" data-bs-dismiss='modal'>Close</button>
+                  <button className="btn btn-success" data-bs-dismiss='modal'>Save</button>
+                </div>
               </div>
-              <div className='modal-body'>
-              For example, if you have a button that you want to open a modal with the ID "myModal",
-               you would use data-bs-toggle="modal" on the button and data-bs-target="#myModal" to specify
-                the target modal. When the button is clicked, Bootstrap will locate the modal with the ID "myModal"
-                 and open it.
-              </div>
-              <div className='modal-footer'>
-                <button className="btn btn-danger " data-bs-dismiss='modal'>Close</button>
-                <button className="btn btn-success " data-bs-dismiss='modal'>Save</button>
-              </div>
-              </div>
-              
             </div>
           </div>
         </div>
@@ -39,4 +43,3 @@ const Modal = () => {
 }
 
 export default Modal;
-
