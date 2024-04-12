@@ -1,0 +1,17 @@
+.container {
+    border: 4px solid black;
+}
+.nav{
+    background-color: rgb(34, 223, 223);
+    
+}
+/* .nav-link{
+    color: rgb(247, 245, 245);
+} */
+.nav-link:hover,
+.nav-link:active
+{
+    background-color: chocolate;
+    color: red;
+    
+}

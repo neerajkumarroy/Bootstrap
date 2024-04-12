@@ -1,0 +1,7 @@
+.container {
+    border: 2px solid black;
+}
+
+.col-md-4 {
+    background-color: aquamarine;
+}

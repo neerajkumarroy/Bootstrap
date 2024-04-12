@@ -1,0 +1,44 @@
+.container{
+    border: 0px solid black;
+}
+.row{
+    border: 0px solid rgb(238, 43, 43);
+}
+
+.col-3,.col-9,.col-12{
+    border: 0px solid rgb(4, 163, 30);
+}
+#navbar{
+background: pink;
+}
+#menue{
+background-color: aqua;
+padding: 5px 0px;
+}
+#menue ul{
+    list-style: none;
+    margin: 0px;
+    height: 23px;
+   
+    }
+    #menue ul li{
+        display: inline-block;
+        padding: 0px 0px 10px 10px;
+       
+        }
+        #menue ul li a{
+            text-decoration: none;
+           
+            }
+#content{
+    background-color: rgb(242, 243, 238);
+    }
+    #sidebar{
+        background-color: rgb(240, 236, 41);
+        }
+        #footer{
+            background-color: rgb(122, 122, 121);
+            }
+            #sidebar ul li a {
+                text-decoration: none;
+              }

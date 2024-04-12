@@ -1,0 +1,58 @@
+a:hover {
+    text-decoration: none;
+}
+
+.header {
+    color: white;
+    background-color: #e67e22;
+}
+
+.logo {
+    font-size: 2rem;
+    margin-top: 5px;
+
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu li a:hover {
+    background-color: #d35400;
+}
+
+.banner {
+    background: url("./Image/banner1..jpg") no-repeat 0 0;
+    background-size: cover;
+}
+
+.banner-title {
+    padding-top: 5rem;
+}
+
+.banner-title h1 {
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+
+.banner-title p.lead {
+    color: #fff;
+    background: rgba(230, 126, 36, 0.8);
+    padding: 10px;
+}

@@ -1,0 +1,16 @@
+
+.container{
+    border: 2px solid black;
+}
+.orange{
+    background-color:orange
+}
+.green{
+    background-color: green;
+}
+.pink{
+    background-color:pink;    
+}
+.red{
+    background: red;
+}
